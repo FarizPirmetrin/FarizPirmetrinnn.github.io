@@ -1,1 +1,0 @@
-# FarizPirmetrin.github.io
