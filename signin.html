@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head><head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|McLaren|Roboto+Slab|Supermercado+One&display=swap" rel="stylesheet">
+	<title>Sign in</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		html{
+			margin: 0;
+			padding: 0;
+
+		}
+		body{
+			margin: 0;
+			padding: 0;
+			background-image: url('sayt.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+		 background-size: cover;	
+		}
+
+
+input[type=text], input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+}
+
+.headimg{
+  width: 100%;
+  height: 20vh;
+}
+div.header:hover{
+
+  background-color: green;
+  height: 21vh;
+  transition: 6s all;
+}
+.header{
+  
+  height: 19vh;
+background-color: lightblue;
+padding-left: 600px;
+
+}
+b{
+  color: lightblue;
+
+}
+
+@media screen and (max-width: 768px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+  .header{
+  height: 19vh;
+background-color: lightblue;
+padding-left: 100px;
+
+}
+}
+	
+	</style>
+</head>
+<body>
+	<div class="header"><h1>LezgiYar.com</h1>
+		<p style="font-family: 'McLaren', cursive; font-size: 20px;">We are glad you are here</p>
+
+	</div>
+
+
+
+
+  <div class="container">
+    <h3 ><b>Username</b></h3>
+    <input type="text" placeholder="Enter Username" name="uname" required=" İstifadəçi adınızı daxil edin">
+
+    <h3 ><b>Password</b></h3>
+    <input type="password" placeholder="Enter Password" name="psw" required="Parolunuzu daxil edin">
+
+    <button type="submit"><a href="home.html"> Login</a></button>
+   
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+
+  </div>
+
+  <div class="container" style="background-color:#ccffcc">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+
+
+</body>
+</html>

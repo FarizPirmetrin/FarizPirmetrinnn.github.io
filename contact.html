@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Eczar|Roboto&display=swap" rel="stylesheet">
+	<title>sağray lezgiyar</title>
+	<style type="text/css">
+		html,body{
+			margin: 0;
+			background-color: #99FFFF;
+
+		}
+
+	li{
+			margin: 5px;
+			float: left;
+		}
+	ul {
+	
+		list-style-type: none;
+		text-decoration: none;
+		overflow: hidden;
+
+    background-color: #333333;
+}
+
+
+
+li >a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li> a:hover {
+    background-color:yellow;
+transition: 5s all;
+}
+.head{
+	font-family: 'Eczar', serif;
+	padding-left: 70px;
+	color: darkblue;
+	font-size: 30px;
+	
+	background-color: #E0E0E0;
+	margin-bottom: 0px;
+		padding-bottom:  0px;
+
+}
+.menu{
+	margin-top: 0px;
+		padding-top: 0px;
+
+}
+.menu li:hover {
+    color: green;
+    padding-left: 30px;
+    transition: all 1s;
+}
+.logo{
+
+
+	float: right;
+	right: 0;
+	  position: fixed;
+
+	height: 130px;
+	width: 100px;
+}
+h3{
+	margin-left: 400px;
+}
+input[type=text], select, textarea {
+	margin-left: 400px;
+	padding: 12px;
+
+  width: 50%;
+
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+
+}
+
+input[type=submit] {
+	width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.but{
+	font-size: 20px;
+	text-underline-position: none;
+	width: 200px;
+	float: right;
+position: fixed;
+right: 100px;
+	position: fixed;
+	background-color: green;
+	color: yellow;
+
+}
+
+	</style>
+
+</head>
+<body>
+	
+	<div class="head">LezgiYar.com 
+		<button  class="but" type="submit" style=""><a href="signin.html">Sign out</a></button>
+		<img src="logo.png" class="logo"></div>
+	<div class="menu">
+	<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="about.html">About Us</a></li>
+  <li><a href="dance.html">Dance</a></li>
+  <li><a href="lezgic.html">Lezgic People</a></li>
+   <li><a href="contact.html">Contact us</a></li>
+</ul>
+</div>
+<div class="container">
+
+
+    <h3 >First Name</h3>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <h3 >Last Name</h3>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <h3 >Country</h3>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <h3 >Subject</h3>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+<input type="submit" value="submit"> 
+</div>
+
+
+
+</body>
+</html>
