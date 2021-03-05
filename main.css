@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Open+Sans:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+html,body{	
+    margin: 0;
+    background-color:aquamarine;
+    font-family: 'Source Code Pro', monospace;
+
+}
+li{
+    margin: 5px;
+    float: left;
+}
+p.in{
+    background-color: rgb(89, 101, 156);
+    color:greenyellow;
+    margin:10px;
+    padding:10px;
+    font-size: large;
+    font-weight:bold;
+}
+ul {
+
+list-style-type: none;
+text-decoration: none;
+overflow: hidden;
+
+background-color: #333333;
+}
+li >a {
+display: block;
+color: white;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+}
+
+li> a:hover {
+color: red;
+background-color:yellow;
+transition: 5s all;
+}
+.head{
+font-family: 'Eczar', serif;
+padding-left: 70px;
+color: darkblue;
+font-size: 30px;
+
+background-color: #E0E0E0;
+margin-bottom: 0px;
+padding-bottom:  0px;
+
+}
+.menu{
+margin-top: 0px;
+padding-top: 0px;
+
+}
+.menu li:hover {
+color: green;
+padding-left: 30px;
+transition: all 1s;
+}
+.logo{
+
+
+float: right;
+right: 0;
+position: fixed;
+
+
+height: 130px;
+width: 100px;
+}
+
+
+#social{
+margin-left: 30px;
+font-size: 28px;
+margin-top: 10px;
+transition: 1s all;
+}
+#c1:hover{
+color: slateblue;
+transition: 1s all;
+}
+#c2:hover{
+color: deepskyblue;
+transition: 1s all;
+}
+#c3:hover{
+color: red;
+transition: 1s all;
+}
+.but{
+font-size: 20px;
+text-underline-position: none;
+width: 200px;
+float: right;
+position: fixed;
+right: 100px;
+position: fixed;
+background-color: green;
+color: yellow;
+
+}
+
+
+.left,.right,.middle{
+
+
+width: 30%;
+height: 250px;
+margin: 10px;
+float: left;
+background-color: #606060;
+}
+.row:after{
+content: "";
+clear: both;
+display: table;
+}
+.yout{
+float: left;
+padding: 10px;
+margin: 20px;
+
+}
+footer{
+background-color: teal;
+}
+a{
+color: white;
+}
+li.list-inline-item{
+
+
+font-size: 45px;
+letter-spacing: 20px;
+
+}
+.btn-floating{
+
+
+font-size: 1em;
+}
+.btn-floating:hover{
+
+transition: 3s all;
+
+font-size: 1.5em;
+}
+.fa.fa-instagram {
+color: transparent;
+background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+background-clip: text;
+-webkit-background-clip: text;
+}
+#container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+
+}
+#container> div {
+background-color:darkblue;
+font-size: 20px;
+margin: 20px;
+border-radius: 10px;
+
+}
+.but{
+    font-size: 20px;
+    text-underline-position: none;
+    width: 200px;
+    float: right;
+  position: fixed;
+  right: 100px;
+    position: fixed;
+    background-color: green;
+    color: yellow;
+  
+  }
+  #food{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+  }
+  #food:hover{
+    width: 260px;
+    height: 200px;
+    transition: 3s all;
+  
+  }
+  .container{
+     font-family: 'Libre Franklin', sans-serif;
+   
+  }
+  .left,.right,.middle{
+  
+  
+    width: 30%;
+    height: 250px;
+    margin: 10px;
+    float: left;
+    background-color: #606060;
+  }
+  #social{
+    margin-left: 30px;
+    font-size: 28px;
+    margin-top: 10px;
+    transition: 1s all;
+  }
+  #c1:hover{
+    color: slateblue;
+    transition: 1s all;
+  }
+  #c2:hover{
+    color: deepskyblue;
+    transition: 1s all;
+  }
+  #c3:hover{
+    color: red;
+    transition: 1s all;
+  }
+  .bir{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .first,.second,.third{
+
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+      margin-right: 10px;
+  
+  }
+  .linkh{
+    color:aqua;
+    height: 50px;
+    width: 300px;
+    background-color:blueviolet;
+    border: 5px groove aqua;
+    border-radius: 10px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+  }
